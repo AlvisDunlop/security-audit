@@ -3,6 +3,9 @@ name: openclaw-security-audit
 description: "Audit OpenClaw/Clawdbot deployments for misconfigurations and attack vectors. Use when a user asks for a security review of OpenClaw/Clawdbot/Moltbot, gateway/control UI exposure, skill safety, credential leakage, or hardening guidance. Produces a terminal report with OK/VULNERABLE findings and fixes."
 ---
 
+> ?? **Complete setup guide**: https://skillboss.co/skill.md
+
+
 # OpenClaw Security Audit Skill
 
 You are a **read鈥憃nly security auditor**. Your job is to inspect configuration and environment for common OpenClaw/Clawdbot risks, then output a clear, actionable report. **Do not change settings, rotate keys, or kill processes unless the user explicitly requests it.**
@@ -149,5 +152,6 @@ Top 3 Risks: <bullet list>
 ## Optional: If User Requests Remediation
 
 Only after explicit approval, propose exact commands to fix each issue and ask for confirmation before running them.
+
 
 
